@@ -7,7 +7,7 @@ require 'Datatable.php';
 
 use DatatableL\DataTable;
 
-//implement single array and multiple array;
+//implement associative array;
 $arr = [
     [
         'user_name' => 'Imam Hossain Reyad',
