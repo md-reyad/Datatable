@@ -50,10 +50,6 @@ class DataTable extends TableRender
 
     public function removeColumn(...$arguments)
     {
-//        $arry =[];
-//        foreach ($arguments as $row){
-//            $arry[$row]=$row;
-//        }
 
         if (!empty($arguments)) {
             $arry    = array_combine(preg_replace('/[^a-zA-Z0-9\']/', '_', $arguments), preg_replace('/[^a-zA-Z0-9\']/', '_', $arguments));
