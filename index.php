@@ -67,7 +67,7 @@ $toXml = $table->from($arr)->toXml();
             return '<b>' . $data['user_email'] . '</b>';
         })
         ->editColumn('user_name', function ($data) {
-            return '<b>' . $data['user_name'] . '</b>';
+            return '<b style="color: green">' . $data['user_name'] . '</b>';
         })
         ->toTable();
     print_r($table_with_editColumn);
